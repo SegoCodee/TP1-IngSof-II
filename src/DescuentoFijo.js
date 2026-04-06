@@ -5,7 +5,7 @@ class DescuentoFijo extends Descuento {
     super();
 
     if (monto < 0) {
-      throw new Error("El monto del descuento no puede ser negativo");
+      throw new Error("El monto del descuento no puede ser negativo.");
     }
 
     this.monto = monto;

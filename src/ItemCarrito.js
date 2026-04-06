@@ -5,7 +5,7 @@ class ItemCarrito {
     }
 
     if (cantidad <= 0) {
-      throw new Error("La cantidad debe ser mayor a 0");
+      throw new Error("La cantidad debe ser mayor a 0.");
     }
 
     this.producto = producto;
