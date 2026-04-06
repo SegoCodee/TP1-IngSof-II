@@ -1,0 +1,14 @@
+{
+  "name": "carrito-compras",
+  "version": "1.0.0",
+  "description": "Proyecto de carrito de compras en JavaScript con POO y pruebas unitarias",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "SegoCodee",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
